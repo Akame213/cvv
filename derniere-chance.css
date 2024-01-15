@@ -1,0 +1,160 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); 
+ 
+h1,h2,h3,h4{
+    
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+
+}
+
+@font-face{
+    font-family:Raleway;
+    src: url(/font/Raleway-Italic.ttf) format("truetype");
+}
+h1{
+   margin-top: auto;
+}
+h3{
+    margin-left: 15px;
+}
+img{
+    
+    border-radius: 50%;
+    width: 120px;
+    margin-top: 40px;
+    box-shadow: -1px 2px 40px rgb(0, 0, 0);
+    
+    
+    
+}
+img:hover{
+    cursor: zoom-in;
+    
+    
+}
+.zoom {
+    height:200px;
+    }
+
+    .zoom img:hover {
+    width:200px;
+    height:200px;
+    }
+.page{
+    background-color:#782221  ;
+    box-sizing: border-box;
+    width: 70%;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgb(196, 196, 196),-30px 0px 40px rgb(196, 196, 196);
+    max-width: 1160px;
+    border:solid #782221;
+    ;
+    
+}
+.section1{
+    text-align: center;  
+    color: white; 
+    Text-decoration: none;
+}
+
+p{
+    text-align: justify;
+    width: 85%;
+}
+ul{
+    margin-left: -25px;
+}
+.header{
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2c1d27;
+    Text-decoration: none;
+    
+}
+a:hover{
+    
+    text-decoration: underline  ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+    
+
+.mailto{
+    margin-left: -100px;
+}
+.container{
+    display: flex;
+}
+.container-left{
+    flex: 1;
+    text-align: left;
+    padding-left: 15px;
+    color: rgb(255, 255, 255);
+}
+.deco{
+    box-sizing: border-box;
+    margin-left: -15px;
+    width: 330px;
+    background-color: #dbc2a4;
+    color: black;
+}
+.container-right{
+    background-color: white;
+    flex: 2;
+    text-align: left;
+    padding-left: 15px;
+    color: black;
+}
+.decoo{
+    box-sizing: border-box;
+    width: 665px;
+    background-color: #dbc2a4;
+    color: black;
+}
+.decoo::before{
+    content:"";
+    width: 5px;
+    height:23px;
+    background: #782221;
+    display: block;
+    float: left;
+    
+}
+
+
+
+#logo:hover{
+    opacity: 0.6;
+    
+}
+.logo{
+    display: flex;
+    margin-left: 44%;
+    
+}
+    
+    
+
+#linkedin a:hover{
+    opacity: 0.6;
+}
+#twitter a:hover{
+    opacity: 0.6;
+}
+#github a:hover{
+    opacity: 0.6;
+}
+
+.dernier{
+    margin-top: -10px;
+    text-align: left;
+    margin-left: 33%;
+
+}
